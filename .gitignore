@@ -1,0 +1,7 @@
+tests/
+mujs/
+.ccls
+jsc
+*.o
+*.asm
+*.js
