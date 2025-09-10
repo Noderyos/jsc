@@ -4,8 +4,8 @@
 
 ## Implemented
 
-- Supported types : int
 - Integer
+- Number (floats)
 - Call
 - Condition
 - For / While
