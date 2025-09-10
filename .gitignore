@@ -1,5 +1,4 @@
 tests/
-mujs/
 .ccls
 jsc
 *.o

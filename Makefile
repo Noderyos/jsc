@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS =-Imujs -Wall -Wswitch-enum
+CFLAGS =-ggdb -Imujs -Wall -Wswitch-enum
 LDFLAGS =-lm
 
 mujs/build/debug/libmujs.o:

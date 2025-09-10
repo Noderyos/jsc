@@ -14,5 +14,11 @@
               pkgs.gnumake pkgs.python3 pkgs.readline pkgs.ccls pkgs.gdb pkgs.gf
             ];
           };
+          packages.${system}.default = pkgs.stdenv.mkDerivation {
+            name = "jsc";
+            version = "0.1";
+
+            src = ./.;
+          };
       };
 }
