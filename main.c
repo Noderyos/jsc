@@ -257,7 +257,6 @@ void compile_function(js_State *J, js_Function *F) {
                 POP("rax"); // Discarding 'this'
                 POP("rax");
 
-                fprintf(stderr, "%d\n", stack_size);
                 printf("    call rax\n");
                 
                 PUSH("rax");
