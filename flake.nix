@@ -26,7 +26,7 @@
               };
             in pkgs.stdenv.mkDerivation {
               name = "jsc";
-              version = "0.1";
+              version = "0.2";
 
               enableParallelBuilding = true;
 
@@ -40,9 +40,9 @@
               src = pkgs.fetchFromGitHub {
                 owner = "Noderyos";
                 repo = "jsc";
-                rev = "3d62f206c3767d3f1304f33f29e422e92780bcf5";
+                rev = "14b75ff56ebe2f9a43c1344e7eeb9c3c56944faa";
                 fetchSubmodules = true;
-                hash = "sha256-0ujdDmlfDitdfhdfcUhE117LwBuLcdysC3N0pcYjB1E=";
+                hash = "sha256-E2SVH4wCnoezE4vqOfbVN8dXLcNk7IJmF8lvLPcw/os=";
               };
 
               makeFlags = ["jsc"];
